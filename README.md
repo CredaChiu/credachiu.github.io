@@ -9,8 +9,8 @@ Chinese type test with PinYin.
 
 Vite React generated.
 
--   React-Router
--   Redux
+- React-Router
+- Redux
 
 `master` 分支为构建后代码
 

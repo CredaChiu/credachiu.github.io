@@ -9,14 +9,14 @@ Chinese type test with PinYin.
 
 Vite React generated.
 
--   React-Router
--   Redux
+- React-Router
+- Redux
 
 Branch `master` is builded code.
 
 #### Instructions
 
-1.  switch to branch `dev`
+1.  Switch to branch `dev`
 2.  Use `pnpm` to boot
 
 ```shell
