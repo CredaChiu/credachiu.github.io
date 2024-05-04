@@ -4,8 +4,8 @@
     "version": "20220608a",
     "packageManager": "pnpm@6.27.1",
     "repository": {
-        "url": "https://gitee.com/barneyZhao/typing-cn.git",
-        "url-github": "https://github.com/BarneyZhao/typing-cn.git"
+        "url": "https://github.com/CredaChiu/credachiu.github.io.git",
+        "url-github": "https://github.com/CredaChiu/credachiu.github.io.git"
     },
     "scripts": {
         "dev": "vite",
@@ -13,6 +13,7 @@
         "preview": "vite preview",
         "update-version": "node scripts/updateVersion.js",
         "online": "npm run build && node scripts/deploy.js master",
+        "deploy": "gh-pages -d dist",
         "lint": "eslint --ext .jsx,.js,.tsx,.ts src",
         "prettier": "prettier --write 'src/**/*.{js,jsx,ts,tsx,scss}'",
         "word": "node scripts/generateWords.js"
